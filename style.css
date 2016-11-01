@@ -1,0 +1,65 @@
+#page {
+	background-color: rgba(255,255,255,0);
+}
+
+body.custom-background {
+	background-size: cover;
+}
+
+.site-branding .site-title a {
+}
+
+.site-branding {
+}
+
+#site-header-menu {
+}
+
+.site-header {
+	padding-top: 0;
+}
+
+#content {
+	background: #fff;
+	padding-top: 1.5em;
+}
+
+footer {
+	background: #e5e5e5;
+}
+
+.site-header-menu.toggled-on {
+	background: rgba(255,255,255,0.38);
+}
+
+@media screen and (min-width: 44.375em) {
+	.site-title {
+		font-size: 1.3em;
+	}
+	
+	.site {
+		margin: 0;
+	}
+}
+
+@media screen and (min-width: 61.5625em) {
+	body:not(.search-results) article:not(.type-page) .entry-content {
+		width: 100%;
+	}
+	
+	.site-inner {
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+	
+	#site-header-menu {
+		position: relative;
+		top: 0;
+		background: rgba(255,255,255,0.38);
+		z-index: 100;
+		margin-top: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
