@@ -42,6 +42,12 @@ footer {
 	}
 }
 
+@media screen and (min-width: 56.875em) {
+	.main-navigation ul ul li {
+		background-color: rgba(245, 248, 250, 0.7);
+	}
+}
+
 @media screen and (min-width: 61.5625em) {
 	body:not(.search-results) article:not(.type-page) .entry-content {
 		width: 100%;
@@ -63,7 +69,4 @@ footer {
 		padding-right: 10px;
 	}
 	
-	.main-navigation ul ul li {
-		background-color: rgba(245, 248, 250, 0.7);
-	}
 }
