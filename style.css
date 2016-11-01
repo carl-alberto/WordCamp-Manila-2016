@@ -62,4 +62,8 @@ footer {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
+	.main-navigation ul ul li {
+		background-color: rgba(245, 248, 250, 0.7);
+	}
 }
