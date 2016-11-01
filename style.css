@@ -28,8 +28,8 @@ footer {
 	background: #e5e5e5;
 }
 
-.site-header-menu.toggled-on {
-	background: rgba(255,255,255,0.38);
+nav.main-navigation ul ul li, .site-header-menu.toggled-on {
+	background: rgba(255,255,255,0.7);
 }
 
 @media screen and (min-width: 44.375em) {
@@ -39,12 +39,6 @@ footer {
 	
 	.site {
 		margin: 0;
-	}
-}
-
-@media screen and (min-width: 56.875em) {
-	.main-navigation ul ul li {
-		background-color: rgba(245, 248, 250, 0.7);
 	}
 }
 
