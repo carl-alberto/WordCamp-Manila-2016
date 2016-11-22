@@ -28,32 +28,48 @@ footer {
 	background: #e5e5e5;
 }
 
+.sponsor-level {
+	text-align: left;
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+.sponsor-level h4 {
+	font-size: 2em;
+}
+
+#wcb_sponsors-2 h2 {
+	font-size: 2.3em;
+}
+
 nav.main-navigation ul ul li, .site-header-menu.toggled-on {
 	background: rgba(255,255,255,0.7);
 }
 
 /** Buttons **/
-.button{
+.button {
 	border-width: 1px;
 	border-style: solid;
 	padding: 15px 30px;
 	-webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
 }
 
-.button-primary{
+.button-primary {
 	background: #0085ba;
-    border-color: #0073aa #006799 #006799;
-    -webkit-box-shadow: 0 1px 0 #006799;
-    box-shadow: 0 1px 0 #006799;
-    color: #fff;
-    text-decoration: none;
-    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+	border-color: #0073aa #006799 #006799;
+	-webkit-box-shadow: 0 1px 0 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
 }
-.button-primary:hover{
+
+.button-primary:hover {
 	background-color: #008ec2;
 	color: #fff;
 }
@@ -62,7 +78,7 @@ nav.main-navigation ul ul li, .site-header-menu.toggled-on {
 	.site-title {
 		font-size: 1.3em;
 	}
-
+	
 	.site {
 		margin: 0;
 	}
@@ -72,13 +88,13 @@ nav.main-navigation ul ul li, .site-header-menu.toggled-on {
 	body:not(.search-results) article:not(.type-page) .entry-content {
 		width: 100%;
 	}
-
+	
 	.site-inner {
 		margin-left: 0;
 		margin-right: 0;
 		max-width: 100%;
 	}
-
+	
 	#site-header-menu {
 		position: relative;
 		top: 0;
@@ -88,5 +104,4 @@ nav.main-navigation ul ul li, .site-header-menu.toggled-on {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-
 }
